@@ -1,0 +1,18 @@
+{
+  "manver" : "1",
+  "project" : "kunit",
+  "description" : "a simple unit testing framework for FANUC's KAREL programming language",
+  "version" : "0.1.0",
+  "license" : "MIT",
+  "source" : [
+    "src/kunit.kl",
+    "src/strlib.kl",
+    "src/test_kunit.kl",
+    "src/test_strlib.kl"
+  ],
+  "includes" : [
+    "include"
+  ],
+  "depends" : [
+  ]
+}
