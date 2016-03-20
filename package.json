@@ -6,9 +6,11 @@
   "license" : "MIT",
   "source" : [
     "src/kunit.kl",
-    "src/strlib.kl",
-    "src/test_kunit.kl",
-    "src/test_strlib.kl"
+    "src/strlib.kl"
+  ],
+  "tests" : [
+    "tests/test_kunit.kl",
+    "tests/test_strlib.kl"
   ],
   "includes" : [
     "include"
