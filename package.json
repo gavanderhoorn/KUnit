@@ -4,6 +4,7 @@
   "description" : "a simple unit testing framework for FANUC's KAREL programming language",
   "version" : "0.1.0",
   "license" : "MIT",
+  "author" : "Jay Strybis - ONE Robotics Company LLC",
   "source" : [
     "src/kunit.kl",
     "src/strlib.kl"
