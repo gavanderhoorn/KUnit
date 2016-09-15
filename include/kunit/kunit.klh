@@ -1,3 +1,7 @@
+
+%IFNDEF KUNIT_KUNIT_KLH__
+%DEFINE KUNIT_KUNIT_KLH__
+
 ROUTINE kunit_init                                                   FROM kunit
 ROUTINE kunit_output                                                 FROM kunit
 
@@ -13,3 +17,6 @@ ROUTINE kunit_eq_str(expected : STRING; actual : STRING)   : BOOLEAN FROM kunit
 ROUTINE k_init_pipe                                                  FROM kunit
 ROUTINE k_close_pipe                                                 FROM kunit
 ROUTINE kunit_pipe(s : STRING)                                       FROM kunit
+
+
+%ENDIF -- KUNIT_KUNIT_KLH__

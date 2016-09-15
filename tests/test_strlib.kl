@@ -1,8 +1,8 @@
 PROGRAM test_strlib
 %NOLOCKGROUP
 
-%INCLUDE kunit\kunit.h
-%INCLUDE kunit\strlib.h
+%INCLUDE kunit\kunit.klh
+%INCLUDE kunit\strlib.klh
 
 ROUTINE t_split_str : BOOLEAN
   VAR

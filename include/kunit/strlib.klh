@@ -1,3 +1,7 @@
+
+%IFNDEF KUNIT_STRLIB_KLH__
+%DEFINE KUNIT_STRLIB_KLH__
+
 ROUTINE split_str(str:STRING; sep:STRING; out:ARRAY[*] OF STRING) FROM strlib
 ROUTINE lstrip(s : STRING)                : STRING FROM strlib
 ROUTINE rstrip(s : STRING)                : STRING FROM strlib
@@ -6,3 +10,6 @@ ROUTINE i_to_s(i : INTEGER)               : STRING FROM strlib
 ROUTINE r_to_s(r : REAL)                  : STRING FROM strlib
 ROUTINE p_to_s(p : XYZWPR)                : STRING FROM strlib
 ROUTINE esc_quotes(s : STRING)            : STRING FROM strlib
+
+
+%ENDIF -- KUNIT_STRLIB_KLH__

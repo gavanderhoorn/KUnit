@@ -22,7 +22,7 @@ VAR
   entry        : INTEGER
   status       : INTEGER
 
-%INCLUDE kunit\strlib.h
+%INCLUDE kunit\strlib.klh
 
 -- Public: Initialize KUNIT
 ROUTINE kunit_init
